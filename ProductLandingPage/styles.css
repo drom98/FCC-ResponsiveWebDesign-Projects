@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media (min-width: 850px) {
+  #home h1 {
+    font-size: 32pt;
+  }
+}
+
+#header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 68px;
+  background-color: crimson;
+}
+
+#nav-bar {
+  margin: 0 auto;
+  width: 80%;
+  padding: 24px;
+}
+
+#nav-bar a {
+  padding-left: 18px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.right {
+  float: right;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 68px;
+  background-color: beige;
+  text-align: center;
+  height: calc(100vh - 68px);
+}
+
+#home h1 {
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 48pt;
+}
+
+#home p {
+  color: slategray;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+form #email {
+  padding: 8px;
+  border: 1px solid crimson;
+}
+
+form #submit {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+}
+
+#link1, #link2 {
+  height: 100vh;
+}
